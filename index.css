@@ -1,0 +1,51 @@
+.parent-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.img-div {
+    display: flex;
+}
+
+.img-home {
+    width: 100%;
+    object-fit: "contain";
+}
+
+.header-options-align-right {
+    margin-left: auto;
+}
+
+.align-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 30px;
+}
+
+.align-content .p {
+    align-self: center;
+    width: 65%;
+}
+
+.align-bottom-icons {
+    display: flex;
+    flex-direction: row;
+}
+
+.align-bottom-icons .left {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.align-bottom-icons .right {
+    display: flex;
+    justify-content: flex-end;
+    margin-left: auto;
+}
+
+.img-icon {
+    width: 50%;
+    height: 50%;
+    object-fit: contain;
+}

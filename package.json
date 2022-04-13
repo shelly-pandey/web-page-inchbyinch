@@ -1,0 +1,19 @@
+{
+  "name": "web-page-inchbyinch",
+  "version": "1.0.0",
+  "description": "Test by inchbyinch",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shelly-pandey/web-page-inchbyinch.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shelly-pandey/web-page-inchbyinch/issues"
+  },
+  "homepage": "https://github.com/shelly-pandey/web-page-inchbyinch#readme"
+}
