@@ -1,3 +1,4 @@
+
 .parent-container {
     display: flex;
     flex-direction: column;
@@ -10,22 +11,44 @@
 .img-home {
     width: 100%;
     object-fit: "contain";
+    position: relative;
+}
+
+.align-side-icons{
+    display : flex;
+    flex-direction: column;
+    
+    padding-top: 10px;
+    padding-top: 300px;
+    justify-content: flex-end;
+    align-items: flex-end;
+    right: 1px;
+    position: absolute;
+    
 }
 
 .header-options-align-right {
     margin-left: auto;
 }
 
+
 .align-content {
     display: flex;
     flex-direction: column;
     align-items: center;
     padding-top: 30px;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-left: 500px;
+    width: 65%;
 }
 
 .align-content .p {
     align-self: center;
-    width: 65%;
+    width: 25%;
+    padding-left: 200px;
+    flex-wrap: wrap;
+    font-weight:300;
 }
 
 .align-bottom-icons {
@@ -48,4 +71,181 @@
     width: 50%;
     height: 50%;
     object-fit: contain;
+}
+
+.img-icon2 {
+    width: 55px;
+    height: 55px;
+    
+   
+}
+
+@media(min-width: 200px)and (max-width: 400px){
+
+    .parent-container {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .img-div {
+        display: flex;
+    }
+    
+    .img-home {
+        width: 100%;
+        object-fit: "contain";
+        position: relative;
+    }
+    
+    .align-side-icons{
+        display : flex;
+        flex-direction: column;
+        
+        padding-top: 20px;
+      
+        justify-content: flex-end;
+        align-items: flex-end;
+        right: 1px;
+        position: absolute;
+        
+    }
+    
+    .header-options-align-right {
+        margin-left: auto;
+    }
+    
+    .align-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 30px;
+        justify-content: center;
+        flex-wrap: wrap;
+        padding-left: 100px;
+        width: 85%;
+    }
+    
+    .align-content .p {
+        align-self: center;
+        width: 25%;
+        padding-left: 200px;
+        flex-wrap: wrap;
+        font-weight:300;
+    }
+    .align-bottom-icons {
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .align-bottom-icons .left {
+        display: flex;
+        justify-content: flex-start;
+    }
+    
+    .align-bottom-icons .right {
+        display: flex;
+        justify-content: flex-end;
+        margin-left: auto;
+    }
+    
+    .img-icon {
+        width: 50%;
+        height: 50%;
+        object-fit: contain;
+    }
+    
+    .img-icon2 {
+        width: 55px;
+        height: 55px;
+        
+       
+    }
+
+}
+
+
+
+
+
+@media(min-width: 400px)and (max-width: 800px){
+
+    .parent-container {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .img-div {
+        display: flex;
+    }
+    
+    .img-home {
+        width: 100%;
+        object-fit: "contain";
+        position: relative;
+    }
+    
+    .align-side-icons{
+        display : flex;
+        flex-direction: column;
+        
+        padding-top: 150px;
+      
+        justify-content: flex-end;
+        align-items: flex-end;
+        right: 1px;
+        position: absolute;
+        
+    }
+    
+    .header-options-align-right {
+        margin-left: auto;
+    }
+    
+    .align-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 30px;
+        justify-content: center;
+        flex-wrap: wrap;
+        padding-left: 100px;
+        width: 85%;
+    }
+    
+    .align-content .p {
+        align-self: center;
+        width: 25%;
+        padding-left: 200px;
+        flex-wrap: wrap;
+        font-weight:300;
+    }
+    
+    .align-bottom-icons {
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .align-bottom-icons .left {
+        display: flex;
+        justify-content: flex-start;
+    }
+    
+    .align-bottom-icons .right {
+        display: flex;
+        justify-content: flex-end;
+        margin-left: auto;
+    }
+    
+    .img-icon {
+        width: 50%;
+        height: 50%;
+        object-fit: contain;
+    }
+    
+    .img-icon2 {
+        width: 55px;
+        height: 55px;
+        
+       
+    }
 }
