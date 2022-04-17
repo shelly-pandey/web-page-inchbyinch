@@ -1,6 +1,6 @@
 .navbar {
 
-    background: linear-gradient(90deg, rgba(15, 15, 14, 0.793) 0%, rgba(42, 41, 41, 0.755), rgba(8, 8, 8, 0.76));    ;
+    background: linear-gradient(90deg, rgba(10, 10, 10, 0.793) 0%, rgba(42, 41, 41, 0.755), rgba(8, 8, 8, 0.76));    
 }
 
 .parent-container {
@@ -53,8 +53,8 @@
     padding-top: 30px;
     justify-content: center;
     flex-wrap: wrap;
-    padding-left: 490px;
-    width: 65%;
+    
+   
     color: black;
 }
 
@@ -63,6 +63,7 @@
     font-weight: 50;
     flex-wrap: wrap;
     color: grey;
+    width: 70%;
   
 
 }
@@ -94,7 +95,7 @@
     height: 55px;
 }
 
-@media (min-width: 200px) and (max-width: 400px) {
+@media (min-width: 320px) and (max-width: 767px) {
     .parent-container {
         display: flex;
         flex-direction: column;
@@ -149,8 +150,8 @@
         align-items: center;
         padding-top: 30px;
         justify-content: center;
-        padding-left: 100px;
-        width: 95%;
+       
+        
     }
 
     .align-content p {
@@ -189,7 +190,7 @@
     }
 }
 
-@media (min-width: 400px) and (max-width: 800px){
+@media (min-width: 768px) and (max-width: 1024px){
     .parent-container {
         display: flex;
         flex-direction: column;
@@ -247,8 +248,8 @@
         padding-top: 30px;
         justify-content: center;
         
-        padding-left: 100px;
-        width: 95%;
+        
+       
     }
 
     .align-content p {
@@ -286,7 +287,7 @@
     }
 }
 
-@media (min-width: 800px) and (max-width: 1400px) {
+@media (min-width: 1025px) and (max-width: 1281px) {
     .parent-container {
         display: flex;
         flex-direction: column;
@@ -342,9 +343,7 @@
         align-items: center;
         padding-top: 30px;
         justify-content: center;
-        padding-left: 350px;
-       
-    }
+      }
 
     .align-content p {
         align-self: center;
