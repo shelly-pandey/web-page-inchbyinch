@@ -1,6 +1,6 @@
 .navbar {
 
-    background: linear-gradient(90deg, rgba(15, 15, 14, 0.673) 0%, rgba(42, 41, 41, 0.486), rgba(8, 8, 8, 0.656));    ;
+    background: linear-gradient(90deg, rgba(15, 15, 14, 0.793) 0%, rgba(42, 41, 41, 0.755), rgba(8, 8, 8, 0.76));    ;
 }
 
 .parent-container {
@@ -121,7 +121,7 @@
     }
 
     .align-play-icon .img-1{
-        height: 40%;
+        height: 50%;
     }
 
     .align-play-icon .img-2{
