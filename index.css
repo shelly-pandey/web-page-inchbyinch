@@ -115,17 +115,17 @@
         justify-content: center; 
         align-items: center; 
         position: absolute;
-        height: 32%;
+        height: 30%;
         width: 100%;
         
     }
 
     .align-play-icon .img-1{
-        height: 50%;
+        height: 40%;
     }
 
     .align-play-icon .img-2{
-        height: 25%;
+        height: 10%;
     }
 
     .align-side-icons {
@@ -189,7 +189,7 @@
     }
 }
 
-@media (min-width: 400px) and (max-width: 800px) {
+@media (min-width: 400px) and (max-width: 800px){
     .parent-container {
         display: flex;
         flex-direction: column;
