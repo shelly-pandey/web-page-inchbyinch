@@ -1,6 +1,10 @@
+.dropdown-toggle {
+   
+    color:rgb(14, 178, 55) !important;
+}
 .navbar {
 
-    background: linear-gradient(90deg, rgba(10, 10, 10, 0.793) 0%, rgba(42, 41, 41, 0.755), rgba(8, 8, 8, 0.76));    
+    background: linear-gradient(90deg, rgba(10, 10, 10, 0.81) 0%, rgba(42, 41, 41, 0.755), rgba(8, 8, 8, 0.76));    
 }
 
 .parent-container {
